@@ -15,7 +15,7 @@ console.log("" && true);//Para AND, "" es false, como no se cumple se queda con 
 console.log(undefined && false);//Para AND, undefined es false, como no se cumple se queda con esa
 
 // Operador ??
-console.log(false ?? {});//Para Nullish Coalescing, solo null y undefinied trabajan con false, por lo que al cumplirse false, se queda con el
+console.log(false ?? {});//Para Nullish Coalescing, solo null y undefinied trabajan como false, por lo que al cumplirse false, se queda con el
 console.log("string" ?? true);//Como la primera se cumple se queda con esa
 console.log([] ?? 100);//Como la primera se cumple se queda con esa
 console.log(null ?? "Prueba");//Para Nullish Coalescing null es false, como la segunda se cumple se queda con esa
